@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>PortFolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500">
+	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+
+	<header class="container-fluid">
+		<section class="container">
+			<div class="row">
+				<div class="col-4">
+					<nav id="navbar-example2" class="navbar navbar-light bg-light">
+
+
+						<a class="navbar-brand" href="#"><img src="assets/img/photoprofil.jpg" width="125" height="150" class="d-inline-block align-top"><h2>PortFolio</h2></a>
+					</div>
+					<div class="col-8">
+						<ul class="nav nav-pills">
+
+							<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+							<label class="menu-open-button" for="menu-open">
+								<span class="hamburger hamburger-1"></span>
+								<span class="hamburger hamburger-2"></span>
+								<span class="hamburger hamburger-3"></span>
+							</label>
+
+							<a href="#accueil" class="menu-item"> <i class="fas fa-home"></i></a>
+							<a href="#competences" class="menu-item"> <i class="fas fa-users"></i> </a>
+							<a href="#diplomes" class="menu-item"> <i class="fas fa-graduation-cap"></i> </a>
+							<a href="#contact" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+								<defs>
+									<filter id="shadowed-goo">
+
+										<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+										<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+										<feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+										<feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+										<feOffset in="shadow" dx="1" dy="1" result="shadow" />
+										<feComposite in2="shadow" in="goo" result="goo" />
+										<feComposite in2="goo" in="SourceGraphic" result="mix" />
+									</filter>
+									<filter id="goo">
+										<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+										<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+										<feComposite in2="goo" in="SourceGraphic" result="mix" />
+									</filter>
+								</defs>
+							</svg>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<main>
+				<carousel>
+					<div class="container">
+						<div class="col-12">
+							<div class="carousel">
+
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+
+											<img class="d-block w-100" src="assets/img/imageweb1.jpg" width="500" height="500" alt="Création">
+											<div class="carousel-caption d-none d-md-block">
+												<h5>Création</h5>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/img/imageweb2.jpg" width="500" height="500" alt="Ambition">
+											<div class="carousel-caption d-none d-md-block">
+												<h5>Ambition</h5>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/img/imageweb3.jpg" width="500" height="500" alt="Travail">
+											<div class="carousel-caption d-none d-md-block">
+												<h5>Travail</h5>
+											</div>
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</carousel>
+
+				<div id="sectionHeader" class="header animatedParent animateOnce target">
+					<div class="textHeader">
+						<h1>Nicolas MATEOS</h1>
+						<p>Développeur Web / Etudiant en DUT Informatique</p>
+					</div>
+					<div class="arrow">
+					 	<a class="js-scrollTo" href="#sectionPresentation" id="bounce"><i class="fas fa-arrow-circle-down bounce"></i></a>
+					 </div>
+				</div>
+				<section id="sectionPresentation" class="text-center">
+					<h1 class="white">Présentation</h1>
+					<p class="mt-3 mb-3">
+						<p>Je m’appelle Nicolas MATEOS</p><br>
+
+						<p>Je suis actuellement étudiant en DUT Informatique. Déterminé et sérieux je souhaite continuer mes études afin d’approfondir mes connaissances en informatique en générale. J'ai quelques projets réalisés durant mes études comme celui d'une web-radio en ligne, je suis également co-fondateur d'un site de codéplacement en cours de développement. </p>
+					</p>
+					<div class="absoluteCards"  id="contact">
+						<div class="panelCard pt-4 pb-4">
+							<div class="panelCardHeader">
+								<i class="far fa-file-alt fa-3x purple"></i>
+								<h3 class="mt-2">Mon CV</h3>
+							</div>
+							<div class="panelCardContent">
+								<p>Vous pouvez télécharger mon CV en cliquant <a href="assets/img/MonCV.pdf" download="MonCV.pdf">ici</a>.</p>
+							</div>
+						</div>
+						<div class="panelCard pt-3 pb-3">
+							<div class="panelCardHeader">
+								<i class="fas fa-envelope fa-3x purple"></i>
+								<h3 class="mt-2">Me contacter</h3>
+							</div>
+							<div class="panelCardContent">
+								<script type="text/javascript">
+									document.write("<a href='mailto:nicolas.mtslive"+"@"+"gmail.com'>Me contacter</a>");
+								</script>
+
+								<noscript>
+									Adresse e-mail protégée, veuillez activer Javascript pour la découvrir
+								</noscript>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<div class="container-fluid" id="competences">
+					<div class="row">
+						<br/>
+						<div class="col-12 pt-4">
+							<h4>Mes Compétences</h4>			
+							<br/>
+							<h5>JAVA</h5>
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only"></span>
+								</div>
+							</div>
+							<br/>
+							<h5>C</h5>
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only"></span>
+								</div>
+							</div>
+							<br/>
+							<h5>HTML/CSS/Web Design</h5>
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only"></span>
+								</div>
+							</div>
+							<br/>
+							<h5>PHP/POO</h5>
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only"></span>
+								</div>
+							</div>
+							<br/>
+							<h5>JavaScript</h5>
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only"></span>
+								</div>
+							</div>
+							<br/>
+						</div>
+					</div>
+				</div>
+				<h4 id="diplomes">Diplômes</h4>
+				<div class="certif-container">
+					<p> Baccalauréat Scientifique </p>
+					<div class="certif">
+						<a href="assets/img/diplomebacS.pdf""><img src="assets/img/diplomebacS.jpg" class="certif_thumbnail" width="100" height="100"></a>
+					</div><br>
+					<div class="certif">
+						<p>Certification developpeur Web</p>
+						<a href="assets/img/CertificationDevWeb.pdf""><img src="assets/img/CertificationDevWeb.jpg" class="certif_thumbnail" width="100" height="100"></a>
+					</div><br>
+					<div class="certif">
+						<p>Certification Intégrateur Web</p>
+						<a href="assets/img/CertificationIntWeb.pdf""><img src="assets/img/CertificationInteWeb.jpg" class="certif_thumbnail" width="100" height="100"></a>
+					</div><br>
+					<div class="certif">
+						<p>Diplôme DUT Informatique en cours</p>
+						<a href="assets/img/dutinformatique.pdf""><img src="assets/img/Capture4.png" class="certif_thumbnail" width="100" height="100"></a>
+					</div><br>
+				</div>
+				<div class="d-inline-block">
+					<h4 id="projets" class="pb-2">Projets et GitHub</h4>
+					<a href="assets/img/Sitecovoit.pdf" class="px-4"><img src="assets/img/capture0.png" class="certif_thumbnail" width="100" height="100"></a>
+					<a href="assets/img/capture1.png" class="px-4"><img src="assets/img/capture1.png" class="certif_thumbnail" width="100" height="100"></a>
+					<a href="assets/img/capture2.png" class="px-4"><img src="assets/img/capture2.png" class="certif_thumbnail" width="100" height="100"></a>
+					<a href="assets/img/capture3.png" class="px-4"><img src="assets/img/capture3.png" class="certif_thumbnail" width="100" height="100"></a>
+					<a href="https://github.com/Nico89000?tab=repositories" class="px-4"><img src="assets/img/capture5.png" class="certif_thumbnail" width="100" height="100"></a>
+				</div>
+			</div><!-- /fin de la Navbar  -->
+		</section><!-- /fin du Container  -->
+	</header><!-- /fin du header  -->
+</body>
+</main>
